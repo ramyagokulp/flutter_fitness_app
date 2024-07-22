@@ -240,7 +240,7 @@ class _VideoPlayerScreenState extends State<VideoPlayerScreen> {
                   _isFullScreen
                       ? Icons.fullscreen_exit
                       : Icons.fullscreen,
-                      size: 40,
+                      size: 40,color: Colors.white60,
                       shadows: [BoxShadow(blurRadius: 15.0)],
                 ),
               ),

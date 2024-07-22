@@ -31,7 +31,7 @@ class _LoginPageState extends State<LoginPage> {
       }
     }
   }
-
+ 
 // void _forgotPassword() async {
 //     if (emailController.text.isNotEmpty) {
 //       try {
@@ -134,7 +134,7 @@ void _forgotPassword() async {
                         width: 60,
                         padding: EdgeInsets.only(right:20,left:20),
                         child: ElevatedButton(
-                          style: ElevatedButton.styleFrom(shadowColor: Colors.black,primary: Colors.white),
+                          style: ElevatedButton.styleFrom(shadowColor: Colors.black,foregroundColor: Colors.white),
                           onPressed: _loginUser,
                           child: Text('Login',style: TextStyle(fontWeight: FontWeight.bold,color: Colors.black,fontSize: 20),),
                         ),

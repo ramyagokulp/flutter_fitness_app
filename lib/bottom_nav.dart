@@ -109,7 +109,7 @@ backgroundColor:const Color.fromARGB(255, 197, 204, 248),
 				? const Icon(
 					Icons.widgets_outlined,
 					color: Colors.white,
-					size: 35,
+					size: 35, 
 				)
 				: const Icon(
 					Icons.widgets_outlined,

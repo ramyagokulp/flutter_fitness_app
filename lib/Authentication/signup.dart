@@ -90,7 +90,7 @@ class _SignUpPageState extends State<SignUpPage> {
                       Container(
                         padding: EdgeInsets.only(right: 20,left: 20),
                         child: ElevatedButton(
-                          style: ElevatedButton.styleFrom(shadowColor: Colors.white,primary: Colors.white),
+                          style: ElevatedButton.styleFrom(shadowColor: Colors.white,foregroundColor: Colors.white),
                           onPressed: _registerUser,
                           child: Text('Sign Up',style:TextStyle(fontWeight: FontWeight.bold,color: Colors.black,fontSize: 20),),
                         ),
